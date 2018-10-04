@@ -1,0 +1,134 @@
+
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  background-image: url("images/bg.jpg");
+  background-position: center;
+  background-repeat: repeat;
+}
+
+h1 {
+  font-family: 'Slabo 27px', serif;
+}
+
+h2 {
+  font-family: 'Slabo 27px', serif;
+}
+
+h3 {
+  font-family: 'Slabo 27px', serif;
+  text-align: center;
+}
+
+h4 {
+  font-family: 'Slabo 27px', serif;
+  text-align: center;
+}
+
+.header {
+  text-align: center;
+  width: 80%;
+  display: grid;
+  grid-template: auto / 25% 25% 25%;
+  grid-column-gap: 4.25%;
+  margin-right: 10%;
+  margin-left: 10%;
+  margin-bottom: 3.5%;
+  padding-top: 1.5%;
+  justify-content: center;
+}
+
+.header2 {
+  text-align: center;
+  width: 80%;
+  display: grid;
+  grid-template: auto / 25% 25% 25%;
+  grid-column-gap: 4.25%;
+  margin-right: 10%;
+  margin-left: 10%;
+  justify-content: center;
+}
+
+
+
+.landing {
+  width: 80%;
+  margin-right: 10%;
+  margin-left: 10%;
+  display: grid;
+  grid-column-gap: 10%;
+  grid-template: auto / 45% 45%;
+  text-align: center;
+
+  justify-content: center;
+}
+
+.landing img {
+  max-width: 50%;
+}
+
+.landing div ul li{
+   text-align: left;
+   margin-left: 25%;
+ }
+
+ .projects {
+   max-width: 80%;
+   margin-right: 10%;
+   margin-left: 10%;
+   display: grid;
+   grid-template: auto auto / 45% 45%;
+   grid-column-gap: 10%;
+
+   justify-content: center;
+   text-align: center;
+ }
+
+.projects div:nth-child(2){
+  background-color: red;
+}
+
+ .projects img {
+   max-width: 50%;
+ }
+
+.contact {
+  max-width: 80%;
+  justify-content: center;
+  margin: 0 10%;
+
+}
+
+ .cont-btns {
+   max-width: 80%;
+   margin-right: 10%;
+   margin-left: 10%;
+   display: grid;
+   grid-column-gap: 5%;
+   grid-template: auto / 20% 20% 20% 20%;
+   margin: 0 10%;
+   justify-content: center;
+   text-align: center;
+   padding-bottom: 5%;
+ }
+
+ #land {
+   background-image: url("images/land-bg");
+   background-position: center;
+   background-size: cover;
+   max-width: 100%;
+
+ }
+
+#pro {
+  background-image: url("images/pro-bg.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+#con {
+  background-image: url("images/cont-bg.jpg");
+  background-position: center;
+  background-size: cover;
+
+}
