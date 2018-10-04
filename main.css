@@ -118,7 +118,10 @@ a {
    text-align: center;
  }
 
+.res {
+  color: #000;
 
+}
 
 .projects div:nth-child(2){
 }
